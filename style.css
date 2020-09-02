@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    width: auto;
+}
+
+th
+{
+    width: 100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+table, thead, tbody {
+    width: 100%;
+}
+
+td{
+    height: 100%;
+    width: 200px;
+}
+
+
+
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: maroon;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+#table2{
+    height: 80%;
+}
+
+#table2, td{
+    height: 80%;
+    padding: 20px
+}
